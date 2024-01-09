@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.titulos-pricipais {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin: 10px;
+    font-weight: 700 !important;
+}
+
+.subtitulo {
+    font-size: 25px;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.subtitulo-paragrafo {
+    font-size: 20px;
+    margin: 20px;
+    font-weight: 600;
+}
+
+.subtitulo-paragrafo-list {
+    color: #666;
+    margin-left: 100px;
+}
+
+#content > div:nth-child(1) {
+    margin: 0 50px;
+}
+
+.cnAbas {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin: 50px 0 30px;
+}
+
+.cnAbas #header {
+    width: 100%;
+    height: 25px;
+    align-items: center;
+
+    overflow: hidden;
+    cursor: hand;
+}
+
+#header > ul > li:nth-child(1) > a > span {
+    text-align: center;
+    align-items: center;
+}
+
+#descricao li,
+#descricao ul {
+    list-style-type: none;
+}
+
+#descricao li,
+#descricao ul {
+    list-style-type: inherit;
+}
+
+.cnAbas .abas {
+    display: inline;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+
+.cnAbas .abas li {
+    float: left;
+    list-style-type: none !important;
+}
+
+li {
+    line-height: 20px;
+}
+
+ul:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.cnAbas #content {
+    width: 100%;
+    border-top: solid 1px #d9d9d9;
+    overflow: hidden;
+    height: auto;
+}
+
+.aba {
+    width: auto;
+    margin-right: 10px;
+    padding: 5px 10px 30px;
+    height: 20px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    transition: all 0.3s ease;
+    line-height: 25px;
+}
+
+.aba:hover {
+    background: #b2ff33;
+    transition: all 0.3s ease;
+    color: #000;
+}
+
+#header > ul > li:nth-child(1) > a {
+    text-decoration: none;
+}
+
+.ativa span,
+.selected span {
+    cursor: pointer;
+}
+
+#descricao p {
+    font-size: 16px;
+    color: #666;
+}
+
+p {
+    margin: 0 0 10px;
+    color: #666;
+}
+
+.cnAbas hr {
+    margin: 50px 0;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+}
+
+.cnAbas table.comparativo {
+    border: 0;
+}
+
+.cnAbas table {
+    margin-bottom: 30px;
+}
+
+.cnAbas table {
+    float: none;
+}
+
+table {
+    width: 100%;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.cnAbas table.comparativo tr:nth-child(1) {
+    border-top: 0;
+    border-left: 0;
+}
+
+.cnAbas .comparativo tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.cnAbas .comparativo tr:nth-child(1) {
+    text-align: center;
+}
+
+.cnAbas tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+.cnAbas th,
+.cnAbas tr,
+.cnAbas td {
+    border: 1px solid #d3d3d3;
+}
+
+th,
+tr,
+td {
+    padding: 8px;
+    border: 1px solid #e6e6e6;
+}
+
+.cnAbas .comparativo tr:nth-child(1) td:nth-child(1) {
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+}
+
+.cnAbas .comparativo tr td:nth-child(1) {
+    background-color: #edfdd3;
+    color: #000;
+    font-weight: 600;
+}
+
+.cnAbas .comparativo tr td:nth-child(2),
+.cnAbas .comparativo tr td:nth-child(1) {
+    border-right: 3px solid #000 !important;
+}
+
+.cnAbas .comparativo td {
+    width: 20%;
+}
+
+img[src*=".gif"],
+img[src*=".png"] {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: optimizeQuality;
+}
+
+img {
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.cnAbas .comparativo tr:nth-child(1) td:nth-child(2) {
+    border-top: 3px solid #000 !important;
+}
+
+.cnAbas .comparativo tr:nth-child(2) td {
+    background-color: #b2fe33;
+    color: #000;
+    font-weight: 600;
+}
+
+#content
+    > div:nth-child(1)
+    > table:nth-child(38)
+    > tbody
+    > tr:nth-child(2)
+    > td:nth-child(1) {
+    background-color: #edfdd3;
+}
+
+.cnAbas .comparativo tr:last-child td:nth-child(2) {
+    border-bottom: 3px solid #000 !important;
+}
+
+.videos-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.videos-wrapper {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+    text-align: center;
+}
+
+.video-slide {
+    min-width: 100%;
+}
+
+iframe {
+    width: 60%;
+    height: 60vh; /* Defina a altura desejada */
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.prev {
+    left: 25;
+}
+
+.next {
+    right: 25;
+}
+
+ul.tags {
+    margin: 30px;
+    font-size: 0;
+}
+
+ul.tags li {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    font-size: 13px;
+    line-height: 32px;
+    border: 1px solid rgba(43, 93, 111, 0.2);
+    border-radius: 3px !important;
+}
+
+ul.tags li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.atributo-comum .active a span,
+.atributo-comum a:hover span,
+.cor-principal,
+.menu a:hover,
+a,
+a:focus,
+a:hover {
+    color: #000;
+}
+
+a,
+a:hover,
+a:focus,
+.cor-principal,
+.menu a:hover,
+.atributo-comum a:hover span,
+.atributo-comum .active a span {
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #b4fe3350;
+}
+
+.cnAbas table {
+    float: none;
+}
+
+table {
+    width: 90%;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content > div:nth-child(5) {
+    margin: 30px;
+}
+
+p {
+    text-align: justify;
+}
+
+#content > div:nth-child(7) {
+    margin: 30px;
+}
+
+#downloads > p:nth-child(15) > a {
+    color: #519c00;
+    font-weight: 600;
+}
